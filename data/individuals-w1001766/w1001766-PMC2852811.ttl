@@ -17,9 +17,6 @@
 
 # https://howisonlab.github.io/softcite-dataset/pdf-files/pmc_oa_files/PMC2852811.pdf
 pmcid:PMC2852811 rdf:type bioj:article ;
-
-    citec:has_in_text_mention FIXME ; # name in text mention like pmcid:PMC3028497_JC01, no quotes
-
     ca:isTargetOf
         [ rdf:type ca:CodeApplication ;
           ca:hasCoder "w1001766" ;
