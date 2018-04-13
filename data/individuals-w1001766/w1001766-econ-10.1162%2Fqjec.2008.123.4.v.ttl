@@ -23,10 +23,6 @@
 # also https://doi.org/10.1162%2Fqjec.2008.123.4.v
 doi:10.1162%2Fqjec.2008.123.4.v rdf:type bioj:article ;
     rdf:type bioj:econ_article ;
-
-    doi:10.1162%2Fqjec.2008.123.4.v_ww01
-    doi:10.1162%2Fqjec.2008.123.4.v_ww02
-
     ca:isTargetOf
         [ rdf:type ca:CodeApplication ;
           ca:hasCoder "w1001766" ;
@@ -43,13 +39,16 @@ doi:10.1162%2Fqjec.2008.123.4.v rdf:type bioj:article ;
                          ] ;
         ] ;
 
-    citec:has_in_text_mention FIXME ;
+    citec:has_in_text_mention doi:10.1162%2Fqjec.2008.123.4.v_ww01;
+    citec:has_in_text_mention doi:10.1162%2Fqjec.2008.123.4.v_ww02;
+
     # create name for in_text_mention like
     # doi:10.1162%2Fqjec.2008.123.4.v_JH01
 
     # citations like:
     # doi-cited:10.1162%2Fqjec.2008.123.4.v_AuthorYear
-.doi:10.1162%2Fqjec.2008.123.4.v_ww01 rdf:type citec:in_text_mention ; # use in text mention name
+.
+doi:10.1162%2Fqjec.2008.123.4.v_ww01 rdf:type citec:in_text_mention ; # use in text mention name
     citec:full_quote """PubPub is a collaborative publication environment with rich commenting features, and powerfule, intuitive authoring tools""" ; # use triple quotes
 
     citec:on_pdf_page 20  ; # integer
